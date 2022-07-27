@@ -1,5 +1,5 @@
 library(prophet)
-library(ggplot)
+library(ggplot2)
 
 
 # Data:
