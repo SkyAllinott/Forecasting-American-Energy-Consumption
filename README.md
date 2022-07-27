@@ -14,7 +14,7 @@ With an mean absolute error of 1218, the forecast does pretty well. The model cl
 
 The trend appears to go down with time, perhaps due to higher efficiency appliances offsetting higher population levels.
 
-Looking at weekly seasonality, the lowest consumption is on saturdays and sundays, perhaps due to businesses not being open. Yearly seasonality looks a bit complex, with peaks in Janruary/February and over the summer months. This may be due to heat needed in the winter, and AC in the summer, with neither in the spring/fall. Finally, looking at daily seasonality, we clearly see a pattern of higher usage between waking hours of ~8am to 8pm. 
+Looking at weekly seasonality, the lowest consumption is on saturdays and sundays, perhaps due to businesses not being open. Yearly seasonality looks a bit complex, with peaks in Janruary/February and over the summer months. This may be due to heat needed in the winter, and AC in the summer, with neither in the spring/fall. Finally, looking at daily seasonality, we clearly see a pattern of higher usage between waking hours of ~6am to 10pm. 
 ## Tuning Parameters:
 The Prophet model has few tuning parameters. I only changed the seasonality mode from the default additive to multiplicative. The default mode assumes that each seasonality (say christmas for instance) adds X units of consumption, everytime. Multiplicative instead assumes that christmas time adds X% instead.
 
